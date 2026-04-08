@@ -1,9 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "server/src/server.ts": {
-      "runtime": "@vercel/node"
-    }
+    "server/src/server.ts": {}
   },
   "rewrites": [
     {

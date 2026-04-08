@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Unified SellIt Campus Marketplace",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
     "build": "npm run build --prefix client && npm run build --prefix server",
