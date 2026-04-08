@@ -32,7 +32,7 @@ app.use('/api/notifications', notificationRoutes);
 app.use('/api/transactions', transactionRoutes);
 
 // Static files for frontend
-const clientDistPath = path.join(__dirname, '../../client/dist');
+const clientDistPath = path.join(process.cwd(), 'client/dist');
 app.use(express.static(clientDistPath));
 
 // Catch-all to serve index.html for SPA routing
