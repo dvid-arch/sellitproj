@@ -1,7 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "server/src/server.ts": {}
+    "server/src/server.ts": {
+      "memory": 1024
+    }
   },
   "rewrites": [
     {
